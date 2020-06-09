@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game_table">
+        <div class="game_header">
+            <h1>TicTacToe</h1>
+        </div>
+        <hr>
+        <table class="whole_table">
+            <tr id='first_row'>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr id='second_row'>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr id='third_row'>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+
+        </table>
+        <div class="endgame">
+            <div class="text"></div>
+            <div class="endgame_button">
+                <button id="btn3" onClick="startGame()">Replay</button>
+            </div>
+        </div>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
